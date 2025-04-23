@@ -1,0 +1,9 @@
+sdesai\pageobjects\ProductCatlog.class
+sdesai\pageobjects\App.class
+sdesai\resources\ExtentReporterNG.class
+sdesai\pageobjects\CheckOutPage.class
+sdesai\pageobjects\CartPage.class
+sdesai\pageobjects\ConfirmPage.class
+sdesai\pageobjects\LandingPage.class
+sdesai\pageobjects\OrderPage.class
+sdesai\AbstractCompo\AbstractCompo.class

@@ -4,7 +4,7 @@ Feature: Purchase the dorder from Ecommerce Website
   I want to use this template for my feature file
  Background:
  Given I landed on ecommerce page
-  @Regression
+  @Submit
   Scenario Outline: Positive Test of submitting the order
     Given I logged in with username <name> and password <password>
     When I add product <productName> to cart

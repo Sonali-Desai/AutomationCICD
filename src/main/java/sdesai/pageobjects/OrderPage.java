@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import sdesai.AbstractCompo.AbstractCompo;
 
@@ -20,13 +19,13 @@ public class OrderPage extends AbstractCompo{
 		PageFactory.initElements(driver, this);
 	}
 	@FindBy(css="tr td:nth-child(3)") List<WebElement> products;
-	
+
 	public boolean verifyOrderDisplay(String productName)
 	{
 		Boolean cart=products.stream().anyMatch(c->c.getText().equalsIgnoreCase(productName));
 		return cart;
 	}
 
-}	
+}
 
 
